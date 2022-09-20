@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("9jUAGyxxVL4D3bJptUwLdtoEwKMZ2xUt1pGSp8ihLtQT");
+declare_id!("2JKko8GioaMmBEbe9P8fFDZ5XBBpWZ2kxRhrNZ7TQFcx");
 
 // #[program]
 // pub mod decentralized_twitter {
@@ -62,7 +62,7 @@ pub struct SendTweet<'info> {
 
 
 #[program]
-pub mod solana_twitter {
+pub mod decentralized_twitter {
     use super::*;
     // any argument whis is not an account can be provided this way, after the context
     // account will be in Context, here: SendTweet
@@ -93,8 +93,6 @@ pub mod solana_twitter {
         if content.chars().count() > 280 {
             return Err(error!(ErrorCode::ContentTooLong))
         }
-    
-    
     
         /*
         Note that we're using the unwrap() function because 

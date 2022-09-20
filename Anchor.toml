@@ -1,7 +1,9 @@
 [features]
 seeds = false
+
+
 [programs.localnet]
-decentralized_twitter = "9jUAGyxxVL4D3bJptUwLdtoEwKMZ2xUt1pGSp8ihLtQT"
+decentralized_twitter = "2JKko8GioaMmBEbe9P8fFDZ5XBBpWZ2kxRhrNZ7TQFcx"
 
 [registry]
 url = "https://anchor.projectserum.com"
