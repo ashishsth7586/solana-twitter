@@ -5,6 +5,12 @@ seeds = false
 [programs.localnet]
 decentralized_twitter = "2JKko8GioaMmBEbe9P8fFDZ5XBBpWZ2kxRhrNZ7TQFcx"
 
+[programs.devnet]
+decentralized_twitter = "2JKko8GioaMmBEbe9P8fFDZ5XBBpWZ2kxRhrNZ7TQFcx"
+
+[programs.mainnet]
+decentralized_twitter = "2JKko8GioaMmBEbe9P8fFDZ5XBBpWZ2kxRhrNZ7TQFcx"
+
 [registry]
 url = "https://anchor.projectserum.com"
 
